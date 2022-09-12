@@ -2,19 +2,17 @@
 
 /**
  * main - prints the alphabet in lowercase,
- * followed by a new line *
+ * followed by a new line
  * Return: Always 0 (Success)
  */
-it main(void)
+int main(void)
 {
 	char ch;
 
-	for (ch = 'a'; c <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
