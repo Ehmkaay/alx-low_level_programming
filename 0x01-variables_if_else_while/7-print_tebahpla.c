@@ -5,7 +5,7 @@
  * followed by a new line
  * Retun: Always 0 (Success)
  */
-int main(void)
+int void main(void)
 {
 	char ch;
 
