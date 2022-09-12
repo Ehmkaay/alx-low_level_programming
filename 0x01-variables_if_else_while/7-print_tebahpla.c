@@ -3,7 +3,7 @@
 /**
  * main - prints the lowercase alphabet in reverse,
  * followed by a new line
- * Retun: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
