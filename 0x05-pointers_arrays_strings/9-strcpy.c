@@ -4,6 +4,7 @@
  * _strcpy - copy paster string
  * @dest: destination
  * @src: source
+ *
  * Return: destination
  */
 
