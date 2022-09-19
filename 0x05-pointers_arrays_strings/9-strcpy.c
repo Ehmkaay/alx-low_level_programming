@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - copy paster string
+ * _strcpy - copy paste string
  * @dest: destination
  * @src: source
  *
@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (*(src + inc) != '\0')
 	{
-		*(dest + inc) = (src + inc);
+		*(dest + inc) = *(src + inc);
 		inc++;
 	}
 	*(dest + inc) = '\0';
