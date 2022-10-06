@@ -3,11 +3,11 @@
 
 /**
  * *str_concat - concatenates two strings
- * * @s1: string to concatenate
- * * @s2: other string to concatenate
+ * @s1: string to concatenate
+ *  @s2: other string to concatenate
  *
- * Return: pointer to the new string created (Success), or NULL (Error)
-*/
+ *  Return: pointer to the new string created (Success), or NULL (Error)
+ */
 char *str_concat(char *s1, char *s2)
 {
 	char *s3;
@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		while (i < len1)
 		{
-			s3[i] = s1[j];
+			s3[i] = s1[i];
 			i++;
 		}
 	}
