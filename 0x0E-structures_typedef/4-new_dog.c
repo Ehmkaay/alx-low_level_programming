@@ -6,6 +6,7 @@
  * @src:      Data to make copy of
  * Return:    Pointer
  */
+
 char *_copy(char *src)
 {
 	char *ptr;
@@ -15,6 +16,7 @@ char *_copy(char *src)
 	{
 		return (NULL);
 	}
+
 	for (len = 0; src[len] != '\0'; len++)
 		;
 
@@ -27,7 +29,7 @@ char *_copy(char *src)
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		ptr[i] = src[i]
+		ptr[i] = src[i];
 	}
 
 	ptr[i] = '\0';
